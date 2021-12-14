@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Coffee, Beans, Shop, beverage, Store">
+    <meta name="author" content="Maher El-Merhebi">
+    <meta name="language" content="en-us">
+    <meta name="classification" content="Coffee Shop">
+    <meta name="description" content="This websites is about a coffee shop">
+    <link rel="stylesheet" href="styles/site.css">
+    <title>Baked Beans Coffee Shop</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <img src="./images/coffeeshoplogo.png" /> 
+
+            <ul>
+
+                <li><a href="index.html">Home page</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a class="notMobile" href="links.html">Links</a></li>
+                <li><a href="hours.html">Hours</a></li>
+                <li><a class="notMobile" href="team.html">Meet our team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </nav>
+            <br>
+            WWW.bakedbeanscoffeeshop.com
+    </header>
+
+    <main>
+        
+        
+        <fieldset class="fldset"><h3>Give Us Your Feedback</h3></fieldset>
+        <p class="paragraph">In order to help us do better or know if our cusomters are stasified, <br> we have created a form for you amazing people to complete!</p>
+        <br>
+    <form action="#" method="get" name="fback">
+        <p>
+            <label for="lname" class="textlabel"> Last Name:</label>
+            <input type="text" name="lname" id="lname" size="30" maxlength="30" placeholder="Last Name">
+        </p>
+        <p>
+            <label for="fname" class="textlabel">First Name:</label>
+            <input type="text" name="fname" id="fname" size="25" maxlength="25" placeholder="First Name">
+        </p>
+        <p>
+            <label for="Email" class="textlabel">Email:</label>
+            <input type="text" name="lname" id="lname" size="50" maxlength="60" placeholder="Email">
+        </p>
+       
+        
+        <p>
+            <label for="pnum" class="textlabel">Phone Number:</label>
+            <input type="number" name="pnum" id="pnum" size="20" maxlength="20" placeholder="Phone Number">
+        </p>
+        <fieldset>
+            <legend>
+                How would you like to send us your Feedback (check all that apply)?
+            </legend>
+            <input type="checkbox" name="chk_email">
+            <label class="checklabel">Email</label>
+            <br>
+            <input type="checkbox" name="chk_phone">
+            <label class="checklabel">Phone</label>
+            <br>
+            <input type="checkbox" name="chk_fbook">
+            <label class="checklabel">Facebook</label>
+            <br>
+            <input type="checkbox" name="chk_intstagram">
+            <label class="checklabel">Instagram</label>
+            <br>
+            <input type="checkbox" name="chk_twitter">
+            <label class="checklabel">Twitter</label>
+        </fieldset>
+        <br>
+        <label class="textlabel" for="cmt">Comments:</label>
+        <textarea name="cmt" id="cmt" cols="50" rows="6"></textarea>
+        <br>
+        <label class="textlabel" for="rating">Give Us A Rating</label>
+        <select name="rating" id="rating">
+            <option value="0">--Select One--</option>
+            <option value="1">Excellent</option>
+            <option value="2">Good</option>
+            <option value="3">Fair</option>
+            <option value="4">Poor</option>
+            <option value="5">Terrible</option>
+        </select>
+        <fieldset>
+            <legend>
+                How did you hear about us
+            </legend>
+            <input name="rg1" type="radio" value="1">
+            <label class="checklabel">Competitors</label>
+            <br>
+            <input name="rg1" type="radio" value="2">
+            <label class="checklabel">Friends</label>
+            <br>
+            <input name="rg1" type="radio" value="3">
+            <label class="checklabel">Advertisment</label>
+        </fieldset>
+        <br>
+        <input type="submit" id="btnSub" value="Tell Us" class="buttoncss">
+        <input type="submit" id="btnCancel" value="Cancel" class="buttoncss">
+    </form>
+
+        
+        <footer>
+            
+
+            <ul>
+
+                <li><a href="index.html">Home page</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a class="notMobile" href="products.html">Products</a></li>
+                <li><a href="hours.html">Hours</a></li>
+                <li><a class="notMobile" href="team.html">Meet our      team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <p><a id="email" href="mailto: Maher.Merhebi@bakedbeanscoffeeshop.com">Email us</a></p>
+            <p id="copy">&copy;copyright 420-H10 Maher El-Merhebi</p>
+    
+        </footer>
+    </main>
+
+
+</body>
+
+</html>
